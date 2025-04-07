@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:shopping/Selectorr.dart';
+import 'provider_of_context.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-   debugShowCheckedModeBanner: false,
-   home: Selectorr(),
+      debugShowCheckedModeBanner: false,
+      home: ProviderOfContext(),
     );
   }
 }
